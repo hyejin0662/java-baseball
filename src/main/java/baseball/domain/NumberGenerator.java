@@ -10,7 +10,6 @@ public class NumberGenerator {
         //만약 이미 존재하는 숫자라면 담지 않는다.
         //만약 존재하지 않는 숫자라면 담는다.
 
-
         List<Integer> numbers = new ArrayList<>();
         // ArrayList 는 앞의 List의 실제 클래스
 
