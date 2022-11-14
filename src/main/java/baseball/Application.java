@@ -17,8 +17,11 @@ public class Application {
 //        System.out.println(numbers);
 
         Judgment judgment = new Judgment();
-        int count = judgment.correctCount(Arrays.asList(7, 2, 3),
-                Arrays.asList(1, 2, 3)); // Arrays.asList => 배열을 리스트로 만드는 방법
-        System.out.println(count); //3
+//        int count = judgment.correctCount(Arrays.asList(7, 8, 9),
+//                Arrays.asList(1, 2, 3)); // Arrays.asList => 배열을 리스트로 만드는 방법
+//        System.out.println(count); //3
+
+        final boolean place = judgment.hasPlace(Arrays.asList(7, 8, 9),0,7); // 인덱스 번호 or placeNumber로 설정하고 placeNumber+1 해줘도 됨
+        System.out.println(place); //true                                           // 인덱스의 0번째에 있는 것이 7인지
     }
 }

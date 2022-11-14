@@ -15,8 +15,12 @@ public class Judgment {
         return result;
     }
 
-    public boolean hasPlace(List<Integer> computer, int placeNumber, int number) {
-        return false;
+    public boolean hasPlace(List<Integer> computer, int placeIndex, int number) {
+        return computer.get(placeIndex) == number; // 아래와 같은 코드
+//        if (computer.get(placeIndex) == number) {// 특정 자리에 있는 숫자를 가지고 올 때
+//            return true;
+//            }
+//        return false;
     }
 
 }
