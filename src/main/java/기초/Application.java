@@ -6,12 +6,12 @@ public class Application {
     public static void main(String[] args) {
         Calculator teacher = new Calculator(); // 인스턴스화 하다.
         // teacher.add(1,3);
-        System.out.println(teacher.add(1,3));
+        System.out.println(teacher.add(1, 3));
         //System.out.println(teacher.result);
         System.out.println(teacher.shareResult);
 
         Calculator calculator = new Calculator();
-        System.out.println(calculator.add(2000,21));
+        System.out.println(calculator.add(2000, 21));
         //System.out.println(calculator.result);
         System.out.println(calculator.shareResult);
 

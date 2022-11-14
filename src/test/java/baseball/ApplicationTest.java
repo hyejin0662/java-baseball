@@ -1,12 +1,12 @@
-package 기초;
-
-import camp.nextstep.edu.missionutils.test.NsTest;
-import org.junit.jupiter.api.Test;
+package baseball;
 
 import static camp.nextstep.edu.missionutils.test.Assertions.assertRandomNumberInRangeTest;
 import static camp.nextstep.edu.missionutils.test.Assertions.assertSimpleTest;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
+
+import camp.nextstep.edu.missionutils.test.NsTest;
+import org.junit.jupiter.api.Test;
 
 class ApplicationTest extends NsTest {
     @Test
