@@ -2,6 +2,7 @@ package baseball;
 
 import baseball.domain.Judgment;
 import baseball.domain.NumberGenerator;
+import baseball.domain.Referee;
 import java.util.Arrays;
 import java.util.List;
 
@@ -12,6 +13,7 @@ import java.util.List;
 
 public class Application {
     public static void main(String[] args) {
+        /*
 //        NumberGenerator generator = new NumberGenerator();
 //        List<Integer> numbers = generator.createRandomNumbers();
 //        System.out.println(numbers);
@@ -23,5 +25,12 @@ public class Application {
 
         final boolean place = judgment.hasPlace(Arrays.asList(7, 8, 9),0,7); // 인덱스 번호 or placeNumber로 설정하고 placeNumber+1 해줘도 됨
         System.out.println(place); //true                                           // 인덱스의 0번째에 있는 것이 7인지
+
+         */
+        Referee referee = new Referee();
+        String result = referee.compare(Arrays.asList(1, 2, 3), Arrays.asList(1, 2, 3));
+        System.out.println(result); //3 스트라이크
+
+
     }
 }
